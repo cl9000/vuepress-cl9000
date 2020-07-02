@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <script>
+			var UA = window.navigator.userAgent.toLowerCase();
+			var isAndroid = UA.indexOf('android') > 0;
+			var isIOS = /iphone|ipad|ipod|ios/.test(UA);
+			if (!(isAndroid || isIOS)) {
+			}
+			// document.addEventListener('DOMContentLoaded', function() {
+			// 	document.documentElement.style.fontSize = document.documentElement.clientWidth / 100 + 'px'
+			// 	console.log('document.documentElement.style.fontSize = ' + document.documentElement.style.fontSize);
+			// })
+		</script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
