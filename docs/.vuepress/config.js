@@ -5,6 +5,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
+    port: '8080',
     markdown: {
         lineNumbers: true
     },
